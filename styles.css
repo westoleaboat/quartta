@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+section {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.overlay {
+    z-index: 1000;
+    position: fixed;
+}
+
+.overlay a button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+}
+
+.gamesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gamecontainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 250px;
+border: 2px solid #333;
+border-radius: 10px;
+background-color: #fff;
+margin-bottom: 20px;
+padding: 10px;
+}
+.gamebuttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+#randomNumber,
+#timer,
+#repetitionCount {
+font-size: 24px;
+color: #333;
+margin: 5px 0;
+}
+
+#randomNumber {
+font-size: 48px;
+}
+
+button {
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+margin: 5px;
+}
+
+#startButton {
+background-color: #007bff;
+color: #fff;
+}
+
+#stopButton {
+background-color: #dc3545;
+color: #fff;
+display: none;
+}
+
+#restartButton {
+background-color: #ff6600;
+color: #fff;
+display: none;
+}
